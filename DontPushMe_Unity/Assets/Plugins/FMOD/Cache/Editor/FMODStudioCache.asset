@@ -1,0 +1,275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9130216816162277566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FINAL MALO
+  m_EditorClassIdentifier: 
+  Path: event:/FINAL MALO
+  Guid:
+    Data1: -1452219909
+    Data2: 1297967324
+    Data3: 165742472
+    Data4: 1846458495
+  Banks:
+  - {fileID: 2265716320882888031}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 30666
+--- !u!114 &-5559992115376435241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Musica
+  m_EditorClassIdentifier: 
+  Path: event:/Musica
+  Guid:
+    Data1: -1640155565
+    Data2: 1196146015
+    Data3: 243488416
+    Data4: 474291344
+  Banks:
+  - {fileID: 2265716320882888031}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 19199
+--- !u!114 &-5463146641082334838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Click event
+  m_EditorClassIdentifier: 
+  Path: event:/Click event
+  Guid:
+    Data1: -1464481876
+    Data2: 1186563933
+    Data3: 1407537812
+    Data4: -996429544
+  Banks:
+  - {fileID: 2265716320882888031}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2937
+--- !u!114 &-4897984398449096595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/INTERACCION E
+  m_EditorClassIdentifier: 
+  Path: event:/INTERACCION E
+  Guid:
+    Data1: 1275597314
+    Data2: 1234397981
+    Data3: 1184929678
+    Data4: -716110947
+  Banks:
+  - {fileID: 2265716320882888031}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2937
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 957451759145442414}
+  - {fileID: 2265716320882888031}
+  - {fileID: 7449858979013823319}
+  EditorEvents:
+  - {fileID: -4897984398449096595}
+  - {fileID: -5559992115376435241}
+  - {fileID: -5463146641082334838}
+  - {fileID: 8846530778520305109}
+  - {fileID: -9130216816162277566}
+  - {fileID: 5613388922293110060}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 7449858979013823319}
+  StringsBanks:
+  - {fileID: 957451759145442414}
+  cacheTime: 638047155103954070
+  cacheVersion: 131593
+--- !u!114 &957451759145442414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../AssetsUnity/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638047155073832347
+  FileSizes:
+  - Name: 
+    Value: 1076
+  Exists: 1
+--- !u!114 &2139039020465026152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PASOS/CAMINAR TRUE
+  m_EditorClassIdentifier: 
+  Name: CAMINAR TRUE
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2219483733
+    data2: 90636304
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &2265716320882888031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/DONT TOUCH ME.bank
+  m_EditorClassIdentifier: 
+  Path: ../AssetsUnity/Desktop/DONT TOUCH ME.bank
+  Name: DONT TOUCH ME
+  StudioPath: bank:/DONT TOUCH ME
+  lastModified: 638047155103954070
+  FileSizes: []
+  Exists: 1
+--- !u!114 &5613388922293110060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NIVEL
+  m_EditorClassIdentifier: 
+  Path: event:/NIVEL
+  Guid:
+    Data1: -1305507330
+    Data2: 1095918843
+    Data3: 1685317271
+    Data4: -1632981080
+  Banks:
+  - {fileID: 2265716320882888031}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 34907
+--- !u!114 &7449858979013823319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../AssetsUnity/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638047155073302317
+  FileSizes: []
+  Exists: 1
+--- !u!114 &8846530778520305109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PASOS
+  m_EditorClassIdentifier: 
+  Path: event:/PASOS
+  Guid:
+    Data1: -1118607138
+    Data2: 1137667403
+    Data3: 1275982013
+    Data4: 1676498580
+  Banks:
+  - {fileID: 2265716320882888031}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2139039020465026152}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
